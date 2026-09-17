@@ -3,7 +3,7 @@ import { useState } from "react";
 import ProductCard from "../components/ProductCard";
 function ProductList() {
     const [viewMode, setViewMode] = useState('grid');
-    const products = useSelector((state) => state.products.items);
+    const items = useSelector((state) => state.products.items);
     return (
         <div className="product-list-page">
             <div className="view-toggle">
@@ -11,14 +11,14 @@ function ProductList() {
                 <button className={viewMode === 'list' ? 'active' : ''} onClick={() => setViewMode('list')}>List View</button>
             </div>
             <div className={`product-list ${viewMode}`}>
-                {products.map((product) => (
+                {items.map((item) => (
                     <ProductCard
-                        key={product.id}
-                        id={product.id}
-                        name={product.name}
-                        image={product.image}
-                        price={product.price}
-                        description={product.description}
+                        key={item.id}
+                        id={item.id}
+                        name={item.name}
+                        image={item.image}
+                        price={item.price}
+                        description={item.description}
                         viewMode={viewMode}
                     />
                 ))}
