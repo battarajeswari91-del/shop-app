@@ -196,12 +196,12 @@ APP WRAPPER
 
 /* FIXED PSEUDO-ELEMENT */
 
-.add-to-cart-btn: :before {
+.add-to-cart-btn::before {
     content: "-";
     font-size: 1rem;
 }
 
-.add-to-cart-btn: :after {
+.add-to-cart-btn::after {
     content: "+";
     font-size: 1rem;
 }
