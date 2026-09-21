@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import LoginPage from "../pages/LoginPage";
-import SignUpPage from "../pages/SignUpPage";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -28,9 +26,7 @@ function AppRouter() {
             <Header />
             <main className="main-content">
                 <Routes>
-                    <Route path="/" element={<LoginPage />} />
-                    <Route path="/login" element={<LoginPage />} />
-                    <Route path="/signup" element={<SignUpPage />} />
+                    <Route path="/" element={<ProductList />} />
                     <Route path="/productList" element={<ProductList />} />
                     <Route path="/cart" element={<CartPage />} />
                     <Route path="/wishlist" element={<WishlistPage />} />
