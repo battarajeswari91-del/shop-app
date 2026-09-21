@@ -17,7 +17,7 @@ body,
 
 body {
   font-family: "Inter",
-"Segoe UI", Arial, sans-serif;
+    "Segoe UI", Arial, sans-serif;
   background: #f7f8fa;
   color: #222;
   line-height: 1.5;
@@ -38,7 +38,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 /* =========================================================
    APP LAYOUT
 ========================================================= */
@@ -55,7 +54,6 @@ a {
   flex: 1;
   min-width: 0;
 }
-
 /* =========================================================
    HEADER
 ========================================================= */
@@ -73,9 +71,9 @@ a {
   top: 0;
   z-index: 1000;
   box-shadow: 0 3px 12px rgba(0,
-0,
-0,
-0.12);
+    0,
+    0,
+    0.12);
 }
 
 .Header .logo {
@@ -107,11 +105,10 @@ a {
 
 .Header nav a:hover {
   background: rgba(255,
-255,
-255,
-0.15);
+    255,
+    255,
+    0.15);
 }
-
 /* =========================================================
    HEADER CART BUTTON
 ========================================================= */
@@ -121,9 +118,9 @@ a {
   height: 38px;
   padding: 0 12px;
   border: 1px solid rgba(255,
-255,
-255,
-0.5);
+    255,
+    255,
+    0.5);
   border-radius: 7px;
   background: transparent;
   color: #ffffff;
@@ -140,7 +137,6 @@ a {
   background: #ffffff;
   color: #1f5f4a;
 }
-
 /* =========================================================
    HEADER WISHLIST BUTTON
 ========================================================= */
@@ -150,9 +146,9 @@ a {
   height: 38px;
   padding: 0 12px;
   border: 1px solid rgba(255,
-255,
-255,
-0.5);
+    255,
+    255,
+    0.5);
   border-radius: 7px;
   background: transparent;
   color: #ffffff;
@@ -169,7 +165,6 @@ a {
   background: #ffffff;
   color: #1f5f4a;
 }
-
 /* =========================================================
    HEADER LOGIN BUTTON
 ========================================================= */
@@ -194,7 +189,6 @@ a {
   background: #e7f2ed;
   transform: translateY(-1px);
 }
-
 /* =========================================================
    FOOTER
 ========================================================= */
@@ -209,9 +203,9 @@ a {
   justify-content: space-between;
   font-size: 12px;
   box-shadow: 0 -2px 10px rgba(0,
-0,
-0,
-0.08);
+    0,
+    0,
+    0.08);
 }
 
 .Footer p {
@@ -226,7 +220,6 @@ a {
 .Footer a:hover {
   color: #d7eee4;
 }
-
 /* =========================================================
    LOGIN PAGE
 ========================================================= */
@@ -254,9 +247,9 @@ a {
   border: 1px solid #e1e5e3;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,
-0,
-0,
-0.08);
+    0,
+    0,
+    0.08);
   display: block;
 }
 
@@ -298,11 +291,10 @@ a {
 .login-page .form-group input:focus {
   border-color: #1f5f4a;
   box-shadow: 0 0 0 3px rgba(31,
-95,
-74,
-0.12);
+    95,
+    74,
+    0.12);
 }
-
 /* =========================================================
    LOGIN BUTTON
 ========================================================= */
@@ -323,7 +315,6 @@ a {
 .login-page .log-in:hover {
   background: #174936;
 }
-
 /* =========================================================
    SIGN UP BUTTON
 ========================================================= */
@@ -344,7 +335,6 @@ a {
 .login-page .sign-up:hover {
   background: #e7f2ed;
 }
-
 /* =========================================================
    PRODUCT LIST
 ========================================================= */
@@ -356,10 +346,9 @@ a {
   padding: 35px 5%;
   display: grid;
   grid-template-columns: repeat(4, minmax(0,
-1fr));
+    1fr));
   gap: 22px;
 }
-
 /* =========================================================
    PRODUCT CARD
 ========================================================= */
@@ -380,9 +369,9 @@ a {
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 30px rgba(0,
-0,
-0,
-0.09);
+    0,
+    0,
+    0.09);
 }
 
 .product-card img {
@@ -420,7 +409,6 @@ a {
   color: #6b7280;
   margin-bottom: 8px;
 }
-
 /* =========================================================
    PRICE
 ========================================================= */
@@ -432,7 +420,6 @@ a {
   font-weight: 700;
   color: #1f5f4a;
 }
-
 /* =========================================================
    PRODUCT ACTIONS
 ========================================================= */
@@ -446,7 +433,6 @@ a {
   gap: 8px;
   margin-top: 14px;
 }
-
 /* =========================================================
    ADD TO CART BUTTON
 ========================================================= */
@@ -481,7 +467,6 @@ a {
   content: none !important;
   display: none !important;
 }
-
 /* =========================================================
    ADD TO WISHLIST BUTTON
 ========================================================= */
@@ -511,7 +496,6 @@ a {
   border-color: #174936;
   transform: translateY(-1px);
 }
-
 /* =========================================================
    VIEW TOGGLE
 ========================================================= */
@@ -541,7 +525,6 @@ a {
   background: #1f5f4a;
   color: #ffffff;
 }
-
 /* =========================================================
    LIST VIEW
 ========================================================= */
@@ -565,7 +548,6 @@ a {
   height: 150px;
   margin: 0;
 }
-
 /* =========================================================
    GENERAL CONTAINER
 ========================================================= */
@@ -584,7 +566,6 @@ a {
   font-size: 28px;
   color: #1f5f4a;
 }
-
 /* =========================================================
    CART
 ========================================================= */
@@ -593,7 +574,7 @@ a {
   width: 100%;
   display: grid;
   grid-template-columns: minmax(0,
-1fr) 320px;
+    1fr) 320px;
   gap: 25px;
   align-items: start;
 }
@@ -639,7 +620,6 @@ a {
   font-size: 13px;
   color: #6b7280;
 }
-
 /* Quantity */
 
 .quantity-controls {
@@ -671,7 +651,6 @@ a {
   text-align: center;
   font-weight: 600;
 }
-
 /* Cart summary */
 
 .cart-summary {
@@ -696,7 +675,6 @@ a {
   color: #6b7280;
   font-size: 14px;
 }
-
 /* =========================================================
    WISHLIST PAGE
 ========================================================= */
@@ -751,7 +729,6 @@ a {
   gap: 8px;
   flex-shrink: 0;
 }
-
 /* Remove */
 
 .remove-btn {
@@ -769,7 +746,6 @@ a {
 .remove-btn:hover {
   background: #f3f4f6;
 }
-
 /* =========================================================
    CHECKOUT
 ========================================================= */
@@ -788,9 +764,9 @@ a {
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 5px 20px rgba(0,
-0,
-0,
-0.04);
+    0,
+    0,
+    0.04);
 }
 
 .checkout-form input,
@@ -810,9 +786,9 @@ a {
 .checkout-form select:focus {
   border-color: #1f5f4a;
   box-shadow: 0 0 0 3px rgba(31,
-95,
-74,
-0.12);
+    95,
+    74,
+    0.12);
 }
 
 .checkout-btn {
@@ -829,7 +805,6 @@ a {
 .checkout-btn:hover {
   background: #174936;
 }
-
 /* =========================================================
    EMPTY MESSAGE
 ========================================================= */
@@ -843,7 +818,6 @@ a {
   border: 1px dashed #d1d5db;
   border-radius: 12px;
 }
-
 /* =========================================================
    ACCESSIBILITY
 ========================================================= */
@@ -854,12 +828,11 @@ input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
   outline: 3px solid rgba(31,
-95,
-74,
-0.25);
+    95,
+    74,
+    0.25);
   outline-offset: 2px;
 }
-
 /* =========================================================
    TABLET
 ========================================================= */
@@ -867,10 +840,9 @@ select:focus-visible {
 @media (max-width: 1100px) {
   .product-list {
     grid-template-columns: repeat(3, minmax(0,
-    1fr));
+        1fr));
+    }
 }
-}
-
 /* =========================================================
    SMALL TABLET
 ========================================================= */
@@ -881,7 +853,7 @@ select:focus-visible {
     padding: 12px 4%;
     flex-wrap: wrap;
     gap: 10px;
-}
+    }
 
   .Header nav {
     width: 100%;
@@ -889,11 +861,9 @@ select:focus-visible {
     overflow-x: auto;
     justify-content: flex-start;
     padding-bottom: 3px;
-}
-
-/* IMPORTANT: no space between : and : */
-
-  .Header nav: :-webkit-scrollbar {
+    }
+    /* IMPORTANT: no space between : and : */
+  .Header nav:-webkit-scrollbar{
     display: none;
 }
 
@@ -920,7 +890,6 @@ select:focus-visible {
     position: static;
 }
 }
-
 /* =========================================================
    MOBILE
 ========================================================= */
@@ -951,7 +920,6 @@ select:focus-visible {
     padding: 0 8px;
     font-size: 11px;
 }
-
 /* Products */
 
   .product-list {
@@ -977,7 +945,6 @@ select:focus-visible {
   .price {
     font-size: 16px;
 }
-
 /* Product buttons */
 
   .product-card .actions,
@@ -997,7 +964,6 @@ select:focus-visible {
     padding: 0 5px;
     font-size: 9px;
 }
-
 /* FULL LOGIN PAGE */
 
   .login-container {
@@ -1016,7 +982,6 @@ select:focus-visible {
   .login-page h1 {
     font-size: 24px;
 }
-
 /* Cart */
 
   .cart-item-row {
@@ -1037,7 +1002,6 @@ select:focus-visible {
     width: 100%;
     justify-content: flex-start;
 }
-
 /* Wishlist */
 
   .wishlist-item-card {
@@ -1057,7 +1021,6 @@ select:focus-visible {
   .wishlist-actions {
     width: 100%;
 }
-
 /* Footer */
 
   .Footer {
@@ -1074,7 +1037,6 @@ select:focus-visible {
     padding: 25px 15px;
 }
 }
-
 /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
@@ -1104,7 +1066,6 @@ select:focus-visible {
     font-size: 10px;
     padding: 0 6px;
 }
-
 /* One product per row */
 
   .product-list {
@@ -1122,7 +1083,6 @@ select:focus-visible {
   .wishlist-btn {
     font-size: 10px;
 }
-
 /* Login */
 
   .login-container {
@@ -1133,7 +1093,6 @@ select:focus-visible {
     padding: 25px 18px;
 }
 }
-
 /* =========================================================
    REDUCED MOTION
 ========================================================= */
